@@ -5,7 +5,7 @@ import time
 # #
 # # syntax
 #   for <placeholder> in list:
-#       do something
+#      run block of code
 # #w#####place holder in a variable that it's scopeis limited to the loop or function
 #
 # x_crazy_landlord = ['cruella de vill','Donald Duck','popeye the maltese']
