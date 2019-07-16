@@ -76,10 +76,22 @@ print(sub_array[1])
 #All of this is the same as
 print(leo_d[2][0][1])
 
+# Tuples
+# Tuples are immutable lists
+# meaning they do
+# if not change:
+#
+#     synatx
+#         tuple_list =('hello,10, 13, 4')
+my_tuple = ('eggs','bread','oats',[11, 13])
+print(my_tuple)
+print(type(my_tuple))
 
 
+breakpoint()
 
-
+# we cannot change the type itself, but we can change the state of items inside
+# we cannot re-assign them
 
 
 

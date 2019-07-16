@@ -13,6 +13,12 @@ Sparta_clients =  ['ASOS',' BBC',' MEN IN BLACK ','Galactic  Empire','KGB', 'Reb
 # print(D)
 # E = f" {Sparta_clients[4]}, is a cool client of sparta "
 # print(E)
+G = Sparta_clients[5] + " is a cool alliance"
+print(G)
+F = Sparta_clients[5] + " is a cool spy agency "
+print(f)
+G = Sparta_clients[5] + " is a cool client of alliance"
+print(G)
 G = Sparta_clients[5] + " is a cool client of alliance"
 print(G)
 first_name = input('what is your name?')
