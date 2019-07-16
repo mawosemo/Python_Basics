@@ -2,6 +2,7 @@
 # syntax - INDENTATION MATTERS
 # if <conditon>:
 # #     Block of code
+# elif,<ondition
 # else:
 #     Block of code
 
@@ -24,10 +25,20 @@
 
 
 weather = input ("what's the weather like").lower().strip()
-if weather == 'Rainy' or weather =='stormy':
-    print("Ain't no sunshine when she's gone")
-if weather == 'Sunny' :
+if  'rainy' in weather and 'stormy' in weather:
+    print("I NEED A JACKET, IT'S COLD ")
+elif 'rainy'in weather or 'foggy' in weather:
+        print("Ain't no sunshine when she's gone, GIVE ME AN UMBRELLA")
+elif weather == 'Sunny':
     print("Don't blame on the sunshine")
 else:
     print(" DON'T STOP BELIEVING" )
+
+# I want a jacket when it is rainy and stormy
+#
+# I want a umbrella only when it is rainy
+#
+# I also want a umbrella if it is foggy, because you if never if know.:
+
+
 
