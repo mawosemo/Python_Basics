@@ -3,24 +3,26 @@ Sparta_clients =  ['ASOS',' BBC',' MEN IN BLACK ','Galactic  Empire','KGB', 'Reb
 # #y =
 #  #print(y)
 # #     #let us use interpolation
-# A = f" {Sparta_clients[0]}, is a cool client of sparta "
-# print(A)
-# B = f" {Sparta_clients[1]}, is a cool client of sparta "
-# print(B)
-# C = f" {Sparta_clients[2]}, is a cool client of sparta "
-# print(C)
-# D = f" {Sparta_clients[3]}, is a cool client of sparta "
-# print(D)
-# E = f" {Sparta_clients[4]}, is a cool client of sparta "
-# print(E)
-G = Sparta_clients[5] + " is a cool alliance"
-print(G)
-F = Sparta_clients[5] + " is a cool spy agency "
-print(f)
-G = Sparta_clients[5] + " is a cool client of alliance"
-print(G)
-G = Sparta_clients[5] + " is a cool client of alliance"
-print(G)
+ ASOS = f" {Sparta_clients[0]}, is a cool client of sparta "
+ print(ASOS)
+ BBC = f" {Sparta_clients[1]}, is a cool client of sparta "
+ print(BBC)
+ MIB = f" {Sparta_clients[2]}, is a cool client of sparta "
+ print(MIB)
+ Empire = f" {Sparta_clients[3]}, is a cool client of sparta "
+ print(Empire)
+ KGB = f" {Sparta_clients[4]}, is a cool client of sparta "
+ print(KGB)
+ Rebel = Sparta_clients[5] + " is a cool alliance"
+ print(Rebel)
+ King = Sparta_clients[5] + " is a cool spy agency "
+ print(King)
+ SHIELD = Sparta_clients[5] + " is a cool client of alliance"
+ print(SHIELD)
+ AVENGERS = Sparta_clients[5] + " is a cool client of alliance"
+ print(AVENGERS)
+ Spartans = Sparta_clients[5] + " is a cool client of alliance"
+ # print(Spartans)
 first_name = input('what is your name?')
 last_name = input('No your full name, ADD YOUR SURNAME FOOL?')
 full_name = first_name+ ''+ last_name
@@ -30,13 +32,13 @@ if hp >= 30:
 elif hp <= 30:
     print("WHATS UP FOOL, I'M DYING OUT HERE")
 
-Pika={
-    'hero': full_name,
+Story={
+  'hero': full_name,
   'beginning': ' In the beginning there was hero called ',
   'middle':'is 17.4 years old, he had the following pokemon pikachu,charmander,Squirtle,Mewtwo,and was always grumpy',
   'end':'he died at age 17.5',
 }
 #Access infomation using the keys
-print(Pika['beginning']+ Pika['hero'])
-print(Pika['hero']+Pika['middle'])
-print(Pika['hero']+Pika['end'])
+print(Story['beginning']+ Story['hero'])
+print(Story['hero']+Story['middle'])
+print(Story['hero']+Story['end'])
