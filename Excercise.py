@@ -1,4 +1,4 @@
-Sparta_clients =  ['ASOS',' BBC',' MEN IN BLACK ','Galactic  Empire','KGB', 'Rebel Alliance','The Kingsmen','S.H.I.E.L.D', 'Avengers']
+Sparta_clients =  ['ASOS',' BBC',' MEN IN BLACK ','Galactic  Empire','KGB', 'Rebel Alliance','The Kingsmen','S.H.I.E.L.D', 'Avengers','Spartans Assemble' ]
 #
 # #y =
 #  #print(y)
