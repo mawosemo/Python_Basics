@@ -41,11 +41,11 @@ string_text = 'hello i need to go to the loo'
  user_input = input('Now!!! >>>>> ')
  print(user_input)
 # # Get userinput and print first name and last name
-# #get user input
+#get user input
  first_name = input('what is your name?')
  #saveuser input to variable
  #get user last name and save it to variable
-# last_name = input('what is your name?')
+last_name = input('what is your name?')
 # #Join the two
 #     #let us use concactination
  full_name = first_name+ ' '+last_name
