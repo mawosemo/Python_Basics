@@ -12,9 +12,12 @@
 
 #def name_function(arg1, arg2):
     #runs block of code
-# Good Practices
-# - functions should be unitary
-# - arguments should have good names
+# # Good Practices
+# # - functions should be unitary
+# # - arguments should have good names
+# -functions should be used to keep your code DRY
+#     DRY- Don't repeat yourself
+# -function should return NOT print
 
 
 
